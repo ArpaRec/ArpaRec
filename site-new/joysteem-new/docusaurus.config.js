@@ -20,8 +20,8 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'techsideofficial', // Usually your GitHub org/user name.
-  projectName: 'JoySteem', // Usually your repo name.
+  organizationName: 'ArpaRec', // Usually your GitHub org/user name.
+  projectName: 'ArpaRec', // Usually your repo name.
 
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
@@ -44,14 +44,14 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/techsideofficial/JoySteem/tree/main/site-new/joysteem-new',
+            'https://github.com/ArpaRec/ArpaRec/tree/main/site-new/joysteem-new',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/techsideofficial/JoySteem/tree/main/site-new/joysteem-new',
+            'https://github.com/ArpaRec/ArpaRec/tree/main/site-new/joysteem-new',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -80,7 +80,7 @@ const config = {
           },
           // {to: 'blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/techsideofficial/JoySteem',
+            href: 'https://github.com/ArpaRec/ArpaRec',
             label: 'GitHub',
             position: 'right',
           },
@@ -107,7 +107,7 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/techsideofficial',
+                href: 'https://github.com/ArpaRec',
               },
             ],
           },
@@ -116,7 +116,7 @@ const config = {
             items: [
               {
                 label: 'GitHub',
-                href: 'https://github.com/techsideofficial/JoySteem',
+                href: 'https://github.com/ArpaRec/ArpaRec',
               },
             ],
           },
