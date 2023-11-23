@@ -8,6 +8,7 @@
       "firebase.json",
       "**/.*",
       "**/node_modules/**",
+      "**/no_pub/**",
       "deploy.bat",
       "site-build.bat",
       "site-cd.bat",
