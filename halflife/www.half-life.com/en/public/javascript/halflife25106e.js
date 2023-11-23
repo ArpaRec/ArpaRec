@@ -41,7 +41,7 @@ function scientistBark () {
     if ( crowbarEquipped == true ) {
       sciClick++;
       if (sciClick <= sciCount) {
-          let bark = new Audio( 'https://cdn.akamai.steamstatic.com/half-life.com/images/halflife25/audio/scientist_' + sciClick + ".mp3" );
+          let bark = new Audio( 'https://cdn.arparec.dev/akamai/half-life.com/images/halflife25/audio/scientist_' + sciClick + ".mp3" );
           bark.volume = 0.4;
           bark.play();
       }
@@ -53,7 +53,7 @@ function scientistBark () {
 
 function crowbarSwing () {
   if ( crowbarEquipped == true ) {
-    let crowbarSwing = new Audio( 'https://cdn.akamai.steamstatic.com/half-life.com/images/halflife25/audio/cbar_miss1.mp3' );
+    let crowbarSwing = new Audio( 'https://cdn.arparec.dev/akamai/half-life.com/images/halflife25/audio/cbar_miss1.mp3' );
     crowbarSwing.volume = 0.3;
     crowbarSwing.play();
 
@@ -65,12 +65,12 @@ function equipCrowbar () {
   crowbarEquipped = !crowbarEquipped;
 
   setTimeout(function(){
-    let crowbarSelect = new Audio( 'https://cdn.akamai.steamstatic.com/half-life.com/images/halflife25/audio/wpn_select.mp3' );
+    let crowbarSelect = new Audio( 'https://cdn.arparec.dev/akamai/half-life.com/images/halflife25/audio/wpn_select.mp3' );
       crowbarSelect.volume = 0.3;
       crowbarSelect.play();
 }, 300);
   
-  let crowbarMoveSelect = new Audio( 'https://cdn.akamai.steamstatic.com/half-life.com/images/halflife25/audio/wpn_moveselect.mp3' );
+  let crowbarMoveSelect = new Audio( 'https://cdn.arparec.dev/akamai/half-life.com/images/halflife25/audio/wpn_moveselect.mp3' );
     crowbarMoveSelect.volume = 0.3;
     crowbarMoveSelect.play();
 
@@ -90,7 +90,7 @@ function fleshHit(event) {
   var randomNumber = Math.floor(Math.random() * 3) + 1;
   
   if ( crowbarEquipped == true ) {
-    let crowbarSelect = new Audio( 'https://cdn.akamai.steamstatic.com/half-life.com/images/halflife25/audio/cbar_hitbod' + randomNumber + '.mp3' );
+    let crowbarSelect = new Audio( 'https://cdn.arparec.dev/akamai/half-life.com/images/halflife25/audio/cbar_hitbod' + randomNumber + '.mp3' );
     crowbarSelect.volume = 0.1;
     crowbarSelect.play();
 
@@ -104,7 +104,7 @@ function fleshHit(event) {
 
       // Blood Splatter
       var randomNumber = Math.floor(Math.random() * 4);
-      var newPanel = $("<img class='bloodparticles nodrag' src='https://cdn.akamai.steamstatic.com/half-life.com/images/halflife25/bloodspray00" + randomNumber + ".png' style=''>");
+      var newPanel = $("<img class='bloodparticles nodrag' src='https://cdn.arparec.dev/akamai/half-life.com/images/halflife25/bloodspray00" + randomNumber + ".png' style=''>");
 
       var mouseX = event.pageX;
       var mouseY = event.pageY;
@@ -161,14 +161,14 @@ function fleshHit(event) {
 
       setTimeout(function() {
         if ( thisHitpoints > 0) {
-          let crowbarMetalHit = new Audio( 'https://cdn.akamai.steamstatic.com/half-life.com/images/halflife25/audio/' + soundPrefix + '_pain' + hitClick + '.mp3' );
+          let crowbarMetalHit = new Audio( 'https://cdn.arparec.dev/akamai/half-life.com/images/halflife25/audio/' + soundPrefix + '_pain' + hitClick + '.mp3' );
           crowbarMetalHit.volume = 0.1;
           crowbarMetalHit.play();
         }
 
         if ( thisDead ) {
           var randomNumber = Math.floor(Math.random() * 2) + 1;
-          let crowbarMetalHit = new Audio( 'https://cdn.akamai.steamstatic.com/half-life.com/images/halflife25/audio/hc_die' + randomNumber + '.mp3' );
+          let crowbarMetalHit = new Audio( 'https://cdn.arparec.dev/akamai/half-life.com/images/halflife25/audio/hc_die' + randomNumber + '.mp3' );
           crowbarMetalHit.volume = 0.2;
           crowbarMetalHit.play();
           if (bIsHeadcrab) {
@@ -192,7 +192,7 @@ function metalHit () {
   var randomNumber = Math.floor(Math.random() * 2) + 1;
   
   if ( crowbarEquipped == true ) {
-    let crowbarMetalHit = new Audio( 'https://cdn.akamai.steamstatic.com/half-life.com/images/halflife25/audio/cbar_hit' + randomNumber + '.mp3' );
+    let crowbarMetalHit = new Audio( 'https://cdn.arparec.dev/akamai/half-life.com/images/halflife25/audio/cbar_hit' + randomNumber + '.mp3' );
     crowbarMetalHit.volume = 0.3;
     crowbarMetalHit.play();
 
@@ -216,7 +216,7 @@ jQuery(document).ready(function($){
       pageDots: false
     });
 
-  var attachedImage = $("<img id='crowbarHeld' class='nodrag' src='https://cdn.akamai.steamstatic.com/half-life.com/images/halflife25/crowbar_carry.png' alt='Attached Image' style='position: absolute; width: 150px; height: 109px; z-index: 9998; pointer-events: none; '>");
+  var attachedImage = $("<img id='crowbarHeld' class='nodrag' src='https://cdn.arparec.dev/akamai/half-life.com/images/halflife25/crowbar_carry.png' alt='Attached Image' style='position: absolute; width: 150px; height: 109px; z-index: 9998; pointer-events: none; '>");
 
   $('#scientist').on("click", function() {
     scientistBark();
@@ -228,7 +228,7 @@ jQuery(document).ready(function($){
       }
       else {
         if ( crowbarEquipped != true ) {
-          attachedImage = $("<img id='crowbarHeld' class='nodrag' src='https://cdn.akamai.steamstatic.com/half-life.com/images/halflife25/crowbar_carry.png' alt='Attached Image' style='position: absolute; width: 150px; height: 109x; z-index: 9999; pointer-events: none; '>");
+          attachedImage = $("<img id='crowbarHeld' class='nodrag' src='https://cdn.arparec.dev/akamai/half-life.com/images/halflife25/crowbar_carry.png' alt='Attached Image' style='position: absolute; width: 150px; height: 109x; z-index: 9999; pointer-events: none; '>");
     
           var mouseX = event.pageX;
           var mouseY = event.pageY;
