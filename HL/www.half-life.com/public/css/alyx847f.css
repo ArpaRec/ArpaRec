@@ -1,0 +1,963 @@
+
+.alyx.par section.feature .composite
+{
+    display: none;
+    background-image: none;
+}
+
+#scrollinfo
+{
+    display: none;
+    font-family: monospace;
+    font-size: 12px;
+    position: fixed;
+    top: 1px;
+    left: 1px;
+    background-color: white;
+    color: black;
+    z-index: 99999999999;
+    border: 1px solid black;
+    opacity: 0.7;
+}
+
+.alyx.par section.feature .featureintro #logotypecontainer .alyx_letter,
+.alyxstatic section.feature .featureintro #logotypecontainer .alyx_letter,
+.alyxstatic section.feature .featureintro #staticlogotypecontainer .alyx_letter
+{
+    display: inline-block;
+    height: 100%;
+    width: auto;
+    position: relative;
+    margin-left: 1.8em;
+    margin-right: 1.8em;
+}
+
+.alyx.par section.feature .featureintro #logotypecontainer #alyx_y,
+.alyxstatic section.feature .featureintro #logotypecontainer #alyx_y
+{
+    margin-right: 1.4em;
+}
+
+.alyx section.feature #logotypecontainer svg,
+.alyxstatic section.feature #staticlogotypecontainer svg
+{
+    height: 100%;
+    fill: #fff;
+    position: relative;
+    width: auto;
+    left: auto;
+    right: auto;
+    margin-left: 1.7em;
+    margin-right: 1.7em;
+}
+
+@media (min-width: 668px)
+{
+    .alyx.par #content > section.feature.image img.staticcomp
+    {
+        display: none;
+    }
+    .alyx.par section.feature
+    {
+        overflow: hidden;
+        background-color: #121918;
+        height: 300vw;
+        max-height: 3900px;
+    }
+    .alyx.par section.feature .featureintro #logotypecontainer
+    {
+        opacity: 1;
+    }
+    .alyx.par section.feature .composite
+    {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-size: 100% auto;
+        background-repeat: no-repeat;
+    }
+    .alyx.par section.feature .type.featureintro
+    {
+        top: 366px;
+    }
+    .alyx.par section.feature #parallax-1
+    {
+        background-image: url('../../../cdn.akamai.steamstatic.com/half-life.com/images/alyx/parallax/alyx_parallax_1.jpg');
+        background-attachment: scroll;
+        background-position: left top;
+        top: -70px;
+        height: 2331px;
+    }
+    .alyx.par section.feature #parallax-2
+    {
+        background-image: url('../../../cdn.akamai.steamstatic.com/half-life.com/images/alyx/parallax/alyx_parallax_2_small.png');
+        top: 556px;
+        height: 964px;
+    }
+    .alyx.par section.feature #parallax-3
+    {
+        background-image: url('../../../cdn.akamai.steamstatic.com/half-life.com/images/alyx/parallax/alyx_parallax_3_small.png');
+        top: 226px;
+        height: 1160px;
+    }
+    .alyx.par section.feature #parallax-4
+    {
+        background-image: url('../../../cdn.akamai.steamstatic.com/half-life.com/images/alyx/parallax/alyx_parallax_4_small.png');
+        top: 1200px;
+        height: 1600px;
+    }
+    .alyx.par section.feature #parallax-5
+    {
+        background-image: url('../../../cdn.akamai.steamstatic.com/half-life.com/images/alyx/parallax/alyx_parallax_5.png');
+        bottom: 0;
+        top: auto;
+        background-position: bottom;
+        height: 2331px;
+    }
+}
+
+@media (min-width: 1300px)
+{
+
+}
+
+.alyx section.feature
+{
+    font-size: 22px;
+}
+
+.alyx section.feature .type,
+.alyxstatic section.feature .type
+{
+    position: absolute;
+    left: 50%;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 1.8vw;
+}
+.alyxstatic section.feature .type
+{
+    z-index: 1000;
+}
+.alyx section.feature .type>*,
+.alyxstatic section.feature .type>*
+{
+    position: relative;
+    left: -50%;
+    text-align: center;
+    color: #fff;
+}
+
+.alyx section.feature .type.featureintro,
+.alyxstatic section.feature .type.featureintro
+{
+    width: 100%;
+}
+.alyx section.feature .type.title
+{
+    bottom: 39vw;
+    width: 100%;
+}
+
+.alyx section.feature .hl-logotype,
+.alyxstatic section.feature .hl-logotype,
+.alyxstatic section.feature .hl-logotype-wide
+{
+    font-size: 1.6em;
+    letter-spacing: 1em;
+    margin-right: -1em;
+}
+.alyxstatic section.feature .hl-logotype
+{
+    font-size: 2em;
+}
+.alyxstatic section.feature .hl-logotype-wide
+{
+    font-size: 2.8em;
+}
+
+.alyx section.feature .hl-featureintro-copy
+{
+    font-size: 1.4em;
+    letter-spacing: 0.3em;
+    margin-right: -0.3em;
+}
+
+.alyxstatic section.feature .hl-featureintro-logotype,
+.alyx section.feature .featureintro .hl-logotype
+{
+    letter-spacing: 0.6em;
+    margin-right: -0.6em;
+}
+
+.alyx section.feature #logotypecontainer,
+.alyxstatic section.feature #staticlogotypecontainer
+{
+    margin-top: 1.3em;
+    bottom: 0;
+    width: 100%;
+    height: 10vw;
+}
+.alyxstatic section.feature #staticlogotypecontainer
+{
+    height: 20vw;
+}
+
+.alyx.alyxstatic section.feature .type.featureintro
+{
+    top: 16.5vw;
+}
+
+.alyx.alyxstatic section.feature .featureintro #staticlogocontain
+{
+    top: 30vw;
+}
+
+.alyxstatic section.feature .type.featureintro
+{
+    top: 25vw;
+}
+
+@media (min-width: 668px)
+{
+    .alyx section.feature .hl-featureintro-copy
+    {
+        font-size: 0.9em;
+    }
+    .alyxstatic section.feature .type.featureintro
+    {
+        top: 26.15vw;
+    }
+    .alyx.alyxstatic section.feature .featureintro #staticlogocontain
+    {
+        top: 42vw;
+    }
+    .alyxstatic section.feature .hl-logotype-wide
+    {
+        font-size: 1.6em;
+    }
+    .alyxstatic section.feature #staticlogotypecontainer
+    {
+        height: 10vw;
+    }
+}
+
+@media (min-width: 1300px)
+{
+    .alyx section.feature .type,
+    .alyxstatic section.feature .type
+    {
+        font-size: 23.4px;
+    }
+    
+    .alyxstatic section.feature .type.featureintro
+    {
+        top: 210px;
+    }
+    .home.alyxstatic section.feature .type.featureintro
+    {
+        top: 340px;
+    }
+    .alyx.alyxstatic section.feature .type.featureintro
+    {
+        top: 218px;
+    }
+    .alyx section.feature .type.title
+    {
+        bottom: 518px;
+    }
+    .alyx section.feature #logotypecontainer,
+    .alyxstatic section.feature #staticlogotypecontainer,
+    .home.alyxstatic section.feature #staticlogotypecontainer
+    {
+        height: 130px;
+    }
+    .alyx.alyxstatic section.feature .featureintro #staticlogocontain
+    {
+        top: 560px;
+    }
+}
+
+
+section.inverted
+{
+    background-color: #121918;
+    color: #fff;
+}
+
+#content section.row.available
+{
+    padding-top: 0em;   
+    z-index: 999;
+    position: relative;
+}
+
+.alyx.alyxstatic #content section.row.available
+{
+    padding-bottom: 0;
+}
+.alyxstatic section.available button.buy
+{
+    margin-bottom: 0;
+}
+
+.alyx.par #content section.row.available
+{
+    padding-bottom: 0;
+    margin-top: -7.5em;
+    background-color: transparent;
+}
+
+section.row.available .outbound
+{
+    text-align: right;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+
+.alyx section.available h1 {
+    text-align: center;
+    margin-bottom: 0;
+}
+section.available button.buy
+{
+    display: block;
+    min-width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.alyx section.available button.buy
+{
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+.alyx section.available h1
+{
+    padding-top: 4vw;
+}
+
+#content section.alyxtrailer
+{
+    padding-top: 40px;
+    padding-bottom: 55px;
+}
+#content section.alyxtrailer .featured {
+    margin-bottom: 0.5em;
+}
+#content section.alyxtrailer h1 {
+    padding-top: 1em;
+}
+
+#content section.alyxtrailer img.desktop {
+    display: none;
+}
+#content section.alyxtrailer img.mobile {
+    display: block;
+}
+#content section.alyxtrailer .col_4 h6 {
+    margin-top: 0.6em;
+}
+
+@media (min-width: 668px)
+{
+    #content section.alyxtrailer .featured {
+        margin-bottom: 1.5em;
+    }
+    #content section.alyxtrailer img.desktop {
+        display: block;
+    }
+    #content section.alyxtrailer img.mobile {
+        display: none;
+    }
+}
+
+#content section.vr-systems
+{
+    padding-top: 0;
+}
+
+#content > section.community
+{
+    padding-top: 2em;
+}
+#content > section.community .row
+{
+    padding-top: 0;
+}
+#content > section.soundtrack
+{
+    padding-top: 0;
+}
+#content > section.soundtrack .row
+{
+    padding-top: 0;
+}
+
+#content section.preheader
+{
+    padding-top: 10px;
+}
+
+#content section.preheader > div
+{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+#content section.preheader blockquote.feature
+{
+    padding-top: 0.6em;
+    padding-right: 0;
+    font-size: 1.6em;
+    line-height: 1.3em;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    text-align: center;
+}
+#content section.preheader .logowrapper img
+{
+    padding-top: 1.3em;
+}
+
+@media (min-width: 668px)
+{
+    #content > section.community
+    {
+        padding-top: 3em;
+    }
+    #content section.preheader .logowrapper img
+    {
+        display: block;
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 1.5em;
+    }
+    #content section.preheader blockquote.feature
+    {
+        font-size: 2.4em;
+        margin-right: 10%;
+        margin-left: 10%;
+        padding-top: 1em;
+    }
+    #content section.alyxtrailer
+    {
+        padding-top: 4em;
+        margin-top: -4em;
+    }
+}
+
+@media (min-width: 820px)
+{
+    #content > section.community
+    {
+        padding-top: 60px;
+    }
+    #content section.preheader
+    {
+        display: flex;
+        align-items: flex-end;
+    }
+    #content section.preheader blockquote.feature
+    {
+        font-size: 1.5em;
+        margin-right: 0;
+        margin-left: 0;
+        margin-top: 0;
+        margin-bottom: -0.33em;
+        line-height: 1.5em;
+        text-align: left;
+    }
+    .alyx section.available h1 {
+        text-align: left;
+        padding-top: 0;
+    }
+    .alyx section.available button.buy
+    {
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 1199px)
+{
+    .alyx section.playonvr h3,
+    .alyx section.playonvr p
+    {
+        text-align: center;
+    }
+}
+@media (max-width: 819px)
+{
+    .alyx.aboutvr section.playonvr .col_3
+    {
+        width: 47.122% !important;
+        margin-right: 5.75%;
+    }
+    .alyx.aboutvr section.playonvr .col_3:last-child
+    {
+        margin-right: 0;
+    }
+    .alyx section.video .col_4
+    {
+        width: 29.498% !important;
+        margin-right: 5.75%;
+    }
+    .alyx section.video .col_4:last-child
+    {
+        margin-right: 0;
+    }
+}
+
+.vr-systems h3
+{
+    text-align: center;
+    padding-top: 1em;
+}
+
+section.alreadyown
+{
+    background-color: #000;
+    color: #fff;
+    background-position: bottom right;
+    background-size: 70% auto;
+    background-repeat: no-repeat;
+}
+#content > section.alreadyown
+{
+    padding-top: 2em;
+    padding-bottom: 4em;
+}
+section.alreadyown h1 {
+    padding-bottom: 1em;
+}
+@media (min-width: 668px)
+{
+    section.alreadyown h1 {
+        padding-right: 3em;
+    }
+}
+@media (min-width: 820px)
+{
+    #content > section.alreadyown
+    {
+        padding-top: 4em;
+    }
+    section.alreadyown h1 {
+        padding-right: 0;
+    }
+}
+section.alreadyown #vr-more
+{
+    color: #ff862c;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 0.7em;
+    cursor: pointer;
+    position: relative;
+    width: 100%;
+    display: none;
+    margin-top: 2em;
+}
+
+.aboutvr section.alreadyown #vr-more,
+.aboutvr section.alreadyown #vr-more #linkmore,
+.aboutvr section.alreadyown #vr-more #linkless
+{
+    display: none;
+}
+
+section.alreadyown #vr-more #linkmore,
+section.alreadyown #vr-more #linkless
+{
+    position: absolute;
+}
+section.alreadyown #vr-more .mono
+{
+    width: 0.6em;
+    display: inline-block;
+    vertical-align: 0.05em;
+}
+
+section.alreadyown #vr-more #linkmore
+{
+    display: block;
+}
+section.alreadyown #vr-more #linkless
+{
+    display: none;
+}
+
+section.alreadyown #vr-more.expanded #linkmore
+{
+    display: none;
+}
+section.alreadyown #vr-more.expanded #linkless
+{
+    display: block;
+}
+
+section.alreadyown.part1
+{
+    background-image: url('../../../cdn.akamai.steamstatic.com/half-life.com/images/alyx/index_controller.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#content > section.alreadyown.part2
+{
+    padding-top: 0;
+}
+section.alreadyown.part2 .row
+{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+section.alreadyown .learnmore
+{
+    text-align: center;
+    padding-top: 1em;
+}
+
+section.alreadyown .sclusives {
+    height: 30vw;
+    max-height: 390px;
+}
+
+@media (max-width: 819px)
+{
+    .vr-systems .col_3
+    {
+        width: 20.686% !important;
+        margin-right: 5.75%;
+    }
+    .vr-systems .col_3:last-child
+    {
+        margin-right: 0;
+    }
+}
+
+@media (min-width: 668px)
+{
+    
+    section.row.available .outbound
+    {
+        text-align: center;
+    }
+    section.alreadyown #vr-more
+    {
+        font-size: 1em;
+    }
+}
+
+@media (min-width: 820px)
+{
+    .alyx section.intro p
+    {
+        /* margin-top: 3em; */
+    }
+    section.available h1 {
+        text-align: left;
+    }
+    section.available button.buy
+    {
+        width: 100%;
+        max-width: 100%;
+    }
+    section.alreadyown.part2 .row
+    {
+        padding-bottom: 25px;
+    }
+    section.alreadyown.part2 .row:last-child
+    {
+        padding-bottom: 0;
+    }
+}
+
+@media (min-width: 1200px)
+{
+    
+}
+
+@media (min-width: 1300px)
+{
+
+}
+
+/* GOOFY TEMPORARY CIRCLE */
+.circle {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    border-radius: 50%;
+    background-color: lightgray;
+}
+  
+.circle:after {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+}
+
+.youtube-wrapper:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  display: block;
+}
+
+.youtube-wrapper:hover:after {
+  content: none;
+}
+
+
+
+
+/* VR PAGE */
+
+.alyx.aboutvr section.feature
+{
+    background-color: black;
+    color: white;
+}
+.alyx #content > section.vr
+{
+    padding-bottom: 3vw;
+}
+.alyx section.playonvr a
+{
+    color: inherit;
+    transition: color 150ms;
+}
+.alyx section.playonvr a:hover
+{
+    color: #ff862c;
+}
+.alyx section.playonvr h3
+{
+    margin-right: -0.3em;
+}
+.alyx section.playonvr h3 > a::after
+{
+    content: '›';
+    margin-left: 0.2em;
+}
+.alyx section.playonvr img
+{
+    width: 60%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+
+.alyx.aboutvr .playonvr button.buy
+{
+    margin-top: 1em;
+}
+
+@media (min-width: 820px)
+{
+    .alyx section.playonvr img
+    {
+        margin-top: 0;
+    }
+    .alyx.aboutvr section.playonvr img
+    {
+        margin-top: 2em;
+    }
+}
+@media (min-width: 1300px)
+{
+    .alyx #content > section.vr
+    {
+        padding-bottom: 40px;
+    }
+}
+
+.alyx.aboutvr section.howeveryouplay h2
+{
+    text-transform: none;
+    font-weight: 200;
+    line-height: 1.2em;
+    padding-top: 1.3em;
+}
+.alyx.aboutvr section.howeveryouplay .vr-diagram h3
+{
+    text-transform: uppercase;
+    font-weight: 800;
+    text-align: center;
+    padding-top: 0.5em;
+    padding-bottom: 0.2em;
+}
+.alyx.aboutvr section.howeveryouplay .vr-diagram img
+{
+    width: 100%;
+    background-color: #fff6f0;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.alyx.aboutvr section.howeveryouplay .vr-diagram p
+{
+    text-align: center;
+    margin-top: 0;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+.alyx.aboutvr section.howeveryouplay .vr-diagram.col_4 img
+{
+    padding-top: 75%;
+}
+.alyx.aboutvr section.howeveryouplay .vr-diagram.col_6 img
+{
+    padding-top: 48%;
+}
+
+.alyx.aboutvr section.howeveryouplay .vr-diagram.roomscale img
+{
+    background-image: url('../../../cdn.akamai.steamstatic.com/half-life.com/images/alyx/vr/vr_diagram_roomscale.png');
+}
+.alyx.aboutvr section.howeveryouplay .vr-diagram.sitting-standing img
+{
+    background-image: url('../../../cdn.akamai.steamstatic.com/half-life.com/images/alyx/vr/vr_diagram_sitting-standing.png');
+}
+.alyx.aboutvr section.howeveryouplay .vr-diagram.teleport img
+{
+    background-image: url('../../../cdn.akamai.steamstatic.com/half-life.com/images/alyx/vr/vr_diagram_teleport.png');
+}
+.alyx.aboutvr section.howeveryouplay .vr-diagram.shift img
+{
+    background-image: url('../../../cdn.akamai.steamstatic.com/half-life.com/images/alyx/vr/vr_diagram_shift.png');
+}
+.alyx.aboutvr section.howeveryouplay .vr-diagram.continuous img
+{
+    background-image: url('../../../cdn.akamai.steamstatic.com/half-life.com/images/alyx/vr/vr_diagram_continuous.png');
+}
+.alyx.aboutvr section.howeveryouplay .vr-diagram.finger-tracking img
+{
+    background-image: url('../../../cdn.akamai.steamstatic.com/half-life.com/images/alyx/vr/vr_diagram_finger-tracking.png');
+}
+.alyx.aboutvr section.howeveryouplay .vr-diagram.trigger-based img
+{
+    background-image: url('../../../cdn.akamai.steamstatic.com/half-life.com/images/alyx/vr/vr_diagram_trigger-based.png');
+}
+
+@media (min-width: 668px) and (max-width: 819px)
+{
+    .alyx.aboutvr section.howeveryouplay .vr-diagram.col_6
+    {
+        width: 47.122% !important;
+        margin-right: 5.75%;
+    }
+    .alyx.aboutvr section.howeveryouplay .vr-diagram.col_4
+    {
+        width: 29.498% !important;
+        margin-right: 5.75%;
+    }
+    .alyx.aboutvr section.howeveryouplay .vr-diagram.col_6:last-child,
+    .alyx.aboutvr section.howeveryouplay .vr-diagram.col_4:last-child
+    {
+        margin-right: 0;
+    }
+}
+.par .static-only
+{
+    visibility: collapse;
+}
+
+.alyxstatic .par-only
+{
+    visibility: collapse;
+}
+
+.xs-max-width
+{
+    width: 667px;
+}
+
+@media (min-width: 820px)
+{
+    .alyx.aboutvr section.howeveryouplay h3
+    {
+        
+    }
+    .alyx.aboutvr section.playonvr img
+    {
+        height: 14.77vw;
+        max-height: 192px;
+        width: auto;
+    }
+
+}
+
+@media (min-width: 1300px)
+{
+    .alyx.aboutvr section.howeveryouplay h3
+    {
+        
+    }
+}
+
+.lightbox {
+  background-color: fade(black, 80%);  
+  overflow: scroll;
+  position: fixed;
+  display: none;
+  z-index: 2000;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  top: 0;
+  
+  &-container {
+    position: relative;
+    max-width: 960px;
+    margin: 50% auto;
+    display: block;    
+    padding: 0 3%;
+    height: auto;
+    z-index: 10;
+  }
+    
+  &-content {
+    box-shadow: 0 1px 6px fade(black, 70%);
+  }
+  
+  &-close {
+    text-transform: uppercase;    
+    background: transparent;
+    position: absolute; 
+    font-weight: 300;      
+    font-size: 12px;
+    display: block;
+    border: none;
+    color: white;
+    top: -22px;
+    right: 3%;
+  }
+}
+
+.video-container {  
+    padding-bottom: 56.25%;
+    position: relative;  
+    padding-top: 100px; 
+    overflow: hidden;
+    height: 0; 
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+    position: absolute;
+    height: 100%;  
+    width: 100%;  
+    left: 0;  
+    top: 0;
+}

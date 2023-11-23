@@ -1,0 +1,125 @@
+
+.home #content > section.series
+{
+    padding-top: 0;
+}
+
+.home .series div
+{
+    padding-bottom: 2em;
+}
+.home .series a img
+{
+    opacity: 1;
+    transition: opacity 300ms;
+}
+.home .series a:hover img
+{
+    opacity: 0.8;
+}
+
+.home .series h3
+{
+    text-transform: uppercase;
+    padding-top: 1em;
+}
+.home section.available > div > a,
+.home section.series > div > a 
+{
+    color: inherit;
+}
+.home .series p
+{
+    margin-top: 0.4em;
+    font-size: 0.8em;
+}
+
+@media (min-width: 668px)
+{
+    .home .series .col_3
+    {
+        width: 47.122% !important;
+        margin-right: 0;
+    }
+    .home .series .col_3:nth-child(odd)
+    {
+        margin-right: 5.75%;
+    }
+    .home .series h3
+    {
+        
+    }
+    .home .series p
+    {
+        
+    }
+}
+
+@media (min-width: 820px)
+{
+    .home .series .col_3
+    {
+        width: 20.686% !important;
+        margin-right: 5.75%;
+    }
+    .home .series .col_3:last-child
+    {
+        margin-right: 0;
+    }
+    .home .series h3
+    {
+        
+    }
+    .home .series p
+    {
+        
+    }
+}
+
+
+/* MUSIC PAGE */
+
+.music #content > section.feature
+{
+	background-color: #121918;
+	padding-bottom: 2em;
+}
+.music #content > section.strapline
+{
+    padding-bottom: 0;
+}
+
+.music .series button h3
+{
+    padding: 0;
+}
+
+.music .available .Rtable
+{
+    border: 0;
+    margin-top: 2em;
+}
+
+.music .available .Rtable-cell
+{
+    padding: 0.25em 0;
+    border: 0;
+    color: #e9e8e9;
+    font-weight: 700;
+}
+
+.music .available .Rtable-cell--head
+{
+    text-transform: uppercase;
+}
+
+@media (min-width: 668px) {
+    .music .Rtable--2cols > .Rtable-cell--head
+    {
+        width: 40%;
+    }
+    .music .Rtable--2cols > .Rtable-cell--info
+    {
+        width: 60%;
+    }
+}

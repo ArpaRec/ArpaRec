@@ -1,0 +1,5 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+www.half-life.com	TRUE	/	FALSE	1999999999	sessionid	89c90bb152156650e0e88cc8
+www.half-life.com	TRUE	/	FALSE	1999999999	SameSite	None
+

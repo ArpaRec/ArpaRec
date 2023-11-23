@@ -1,0 +1,289 @@
+
+section.feature
+{
+    position: relative;
+}
+section.feature div
+{
+    line-height: 1.4em;
+}
+
+section.feature image
+{
+    position: relative;
+}
+section.feature svg.title
+{
+    fill: #fff;
+    position: absolute;
+    bottom: 17%;
+    left: 6.5%;
+    width: 85vw;
+    height: 8vw;
+}
+section.feature svg.subtitle
+{
+    bottom: 3%;
+}
+
+@media (min-width: 820px) {
+    section.feature svg.title
+    {
+        width: 44vw;
+        bottom: 7%;
+        max-width: 572px;
+    max-height: 104px;
+    }
+    section.feature svg.subtitle
+    {
+        bottom: 0%;
+    }
+}
+
+blockquote
+{
+    font-style: italic;
+}
+blockquote.offsetquote
+{
+    text-indent: -0.42em;
+}
+
+@media (min-width: 668px) {
+    blockquote.feature
+    {
+        font-size: 2.2em;
+        line-height: 1.2em;
+        padding-bottom: 0.1em;
+        padding-right: 0.2em;
+    }
+}
+@media (min-width: 820px)
+{
+    blockquote
+    {
+        margin-bottom: 0.5em;
+    }
+}
+
+cite
+{
+    color: #ff862c;
+    font-weight: 900;
+    font-style: normal;
+    text-transform: uppercase;
+}
+#content > section.laurels
+{
+    padding-top: 55px;
+    padding-bottom: 60px;
+    font-size: 6.08vw;
+    text-transform: uppercase;
+}
+@media (min-width: 820px)
+{
+    #content > section.laurels
+    {
+        font-size: 50px;
+    }
+}
+.laurelsbox
+{
+    text-align: center;
+    background-image: url('https://cdn.akamai.steamstatic.com/half-life.com/images/laurels.svg');
+    background-repeat: no-repeat;
+    background-position: top center;
+    position: relative;
+    height: 36vw;
+    max-height: 295px;
+    width: 76vw;
+    max-width: 523px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.laurelsbox .laud
+{
+    display: none;
+    position: absolute;
+    width: 66%;
+    height: 40vw;
+    max-height: 328px;
+    margin-left: 17%;
+}
+.laurelsbox .laud:first-child
+{
+    display: block;
+}
+.laurels blockquote,
+.laurels cite
+{
+    position: relative;
+    display: block;
+}
+.laurels blockquote {
+    line-height: 1.1em;
+    padding-top: 0.3em;
+    height: 4.5em;
+    max-height: 225px;
+    overflow: hidden;   
+    margin-bottom: 0.1em;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 0.9em;
+}
+.laud blockquote,
+.laud cite
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.laurels cite {
+    font-size: 0.5em;
+    line-height: 1.1em;
+    width: 55%;
+    margin-left: auto;
+    margin-right: auto;
+    text-indent: -0.5em;
+    padding-left: 0.3em;
+    height: 2em;
+}
+
+
+section.gamefooter
+{
+    background-color: #4b423c;
+}
+
+.infogrid .Rtable
+{
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #fff;
+    letter-spacing: 1px
+}
+
+.infogrid .Rtable-cell
+{
+    border: solid 1px #ff862c;
+}
+.infogrid .Rtable-cell--head
+{
+    color: #ff862c;
+}
+
+.Rtable--2cols > .Rtable-cell--head
+{
+    width: 37%;
+}
+.Rtable--2cols > .Rtable-cell--info
+{
+    width: 63%;
+}
+/*
+.infogrid .Rtable-cell.twoline
+{
+    min-height: 4.7em;
+}
+
+@media (max-width: 667px) {
+    .infogrid .Rtable-cell.twoline
+    {
+        height: auto;
+        min-height: 0;
+    }
+}*/
+
+#content div.carousel
+{
+    background-color: #000;
+}
+#content .controls ul.slick-dots
+{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+    list-style-type: none;
+}
+#content .controls ul.slick-dots li
+{
+    display: inline-block;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+#content .controls ul.slick-dots li button
+{
+    height: 1em;
+    width: 1em;
+    
+    border-style: solid;
+    border-radius: 0.5em;
+    border-width: 1px;
+    border-color: #ff862c;
+    background-color: transparent;
+    white-space: nowrap; 
+    overflow: hidden; 
+    outline: none; 
+    text-indent: -9999px;
+    transition: background-color 200ms;
+    cursor: pointer;
+}
+
+#content .controls
+{
+    position: relative;
+}
+#content .controls ul.slick-dots li button:hover
+{
+    background-color: #ffaa6b;
+}
+
+#content .controls ul.slick-dots li.slick-active button
+{
+    background-color: #ff862c;
+}
+
+#content .controls .slick-arrow
+{
+    position: absolute;
+    top: 10px;
+    height: 1.5em;
+    width: 5em;
+    color: #ff862c;
+    cursor: pointer;
+}
+#content .controls .slick-arrow.leftarrow
+{
+    left: 0;
+}
+#content .controls .slick-arrow.leftarrow svg
+{
+    transform: scaleX(-1);
+    transform-origin: center;
+    left: 1em;
+}
+#content .controls .slick-arrow.rightarrow svg
+{
+    right: 1em;
+}
+#content .controls .slick-arrow.rightarrow
+{
+    right: 0;
+}
+#content .controls .slick-arrow svg
+{
+    position: absolute;
+    top: 0;
+    height: 100%;
+    fill: transparent;
+    stroke-width: 6px;
+    stroke-miterlimit: 10;
+    stroke: #ff862c;
+    transition: fill 300ms;
+}
+#content .controls .slick-arrow:hover svg
+{
+    fill: #ffaa6b;
+}

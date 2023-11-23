@@ -1,0 +1,17 @@
+HTTrack3.49-2+htsswf+htsjava launched on Fri, 24 Nov 2023 03:49:55 at https://www.half-life.com/* https://www.half-life.com +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://www.half-life.com/* https://www.half-life.com -O1 "C:\DownloadedSites\HL" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+03:49:57	Warning: 	Moved Temporarily for https://www.half-life.com/robots.txt
+03:49:57	Warning: 	File has moved from https://www.half-life.com/robots.txt to https://www.half-life.com/en/robots.txt
+03:49:57	Warning: 	Moved Temporarily for https://www.half-life.com/en/
+03:49:57	Warning: 	File has moved from https://www.half-life.com/en/ to https://www.half-life.com/en/home/
+03:49:58	Warning: 	Moved Temporarily for https://www.half-life.com/
+03:49:58	Warning: 	File has moved from https://www.half-life.com/ to https://www.half-life.com/en/
+
+HTTrack Website Copier/3.49-2 mirror complete in 1 minutes 3 seconds : 223 links scanned, 220 files written (72741401 bytes overall) [72327709 bytes received at 1148058 bytes/sec], 679309 bytes transferred using HTTP compression in 30 files, ratio 28%, 28.1 requests per connection
+(No errors, 6 warnings, 0 messages)
