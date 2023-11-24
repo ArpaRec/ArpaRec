@@ -1,4 +1,4 @@
-# **Server Status**
+# Server Status
 
 If something isn't working, it will usally be listed here.
 
