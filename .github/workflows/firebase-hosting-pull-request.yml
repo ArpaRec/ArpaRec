@@ -8,7 +8,8 @@ jobs:
     if: '${{ github.event.pull_request.head.repo.full_name == github.repository }}'
     runs-on: ubuntu-latest
     steps:
-      - run: cp -a ./site-new/joysteem-new/build/. ./
+      - run: cp -a ./nopub_pagesrc/mainsite/build/. ./
+      - run: cp -a ./nopub_pagesrc/halflifemenu/build/. ./srcmenu
       - uses: actions/checkout@v3
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:

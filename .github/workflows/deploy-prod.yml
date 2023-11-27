@@ -17,7 +17,8 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       # Add any build steps here. For example:
-      - run: cp -a ./site-new/joysteem-new/build/. ./
+      - run: cp -a ./nopub_pagesrc/mainsite/build/. ./
+      - run: cp -a ./nopub_pagesrc/halflifemenu/build/. ./srcmenu
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: "${{ secrets.GITHUB_TOKEN }}"

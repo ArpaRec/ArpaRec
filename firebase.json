@@ -9,6 +9,7 @@
       "**/.*",
       "**/node_modules/**",
       "**/no_pub/**",
+      "**/nopub_pagesrc/**",
       "deploy.bat",
       "site-build.bat",
       "site-cd.bat",
