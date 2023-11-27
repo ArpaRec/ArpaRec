@@ -9,6 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: cp -a ./nopub_pagesrc/mainsite/build/. ./
+      - run: cp -a ./nopub_pagesrc/quiz/build/. ./quiz
       - run: cp -a ./nopub_pagesrc/halflifemenu/build/. ./srcmenu
       - uses: actions/checkout@v3
       - uses: FirebaseExtended/action-hosting-deploy@v0

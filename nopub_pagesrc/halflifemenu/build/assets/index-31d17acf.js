@@ -1,0 +1,1 @@
+import{r,j as t}from"./index-63dbf776.js";const o=""+new URL("half_life_guy-03166fdc.mp4",import.meta.url).href,u=({nextStepHandler:s})=>{const e=r.useRef(null);return r.useEffect(()=>{e.current!==null&&e.current.play()},[]),t.jsx("video",{ref:e,className:"bgImage",onEnded:s,preload:"auto",playsInline:!0,children:t.jsx("source",{src:o,type:"video/mp4"})})};export{u as default};

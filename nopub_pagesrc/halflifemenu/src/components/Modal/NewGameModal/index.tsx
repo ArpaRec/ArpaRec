@@ -1,5 +1,4 @@
 import Modal from "..";
-import playSound from "../../../utils/playSound";
 import Button from "../../Button";
 import NewGameCard from "../../NewGameCard";
 import cardsData from "./cardsData";
@@ -69,7 +68,11 @@ const NewGameModal: React.FC<NewGameModalProps> = ({ clickHandler }) => {
       <hr />
       <div className={classes.buttonContainer}>
         <Button
-          clickHandler={() => playSound("death")}
+          clickHandler={() => {
+            if (chosenMission == "1") {
+              window.location.replace('https://cdn.arparec.dev/srceng/bms/credits.mp4')
+            }
+          }}
           disabled={chosenMission === "none"}
         >
           {t("newGame.startNewGame")}

@@ -2,11 +2,11 @@ import convertToI18nFormat from "../transformToI18nFormat";
 
 const newGame = convertToI18nFormat({
   modalName: {
-    en: "New Game",
+    en: "Media",
     ru: "Новая игра",
   },
   chapter: {
-    en: "Chapter",
+    en: "Media",
     ru: "Глава",
   },
   more: {
@@ -14,7 +14,7 @@ const newGame = convertToI18nFormat({
     ru: "Ещё",
   },
   startNewGame: {
-    en: "Start new game",
+    en: "Launch Media",
     ru: "Начать новую игру",
   },
   cancel: {

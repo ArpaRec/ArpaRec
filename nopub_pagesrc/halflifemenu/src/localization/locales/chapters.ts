@@ -5,8 +5,8 @@ import convertToI18nFormat from "../transformToI18nFormat";
 
 const chapters = convertToI18nFormat({
   pointInsertion: {
-    en: "Point Insertion",
-    ru: "Прибытие",
+    en: "Black Mesa Credits",
+    ru: "Кредиты Черной Мезы",
   },
   redLetterDay: {
     en: "A Red Letter Day",

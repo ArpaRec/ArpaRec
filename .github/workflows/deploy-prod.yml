@@ -15,9 +15,10 @@ jobs:
     #   run:
     #     working-directory: ./site-new/joysteem
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       # Add any build steps here. For example:
       - run: cp -a ./nopub_pagesrc/mainsite/build/. ./
+      - run: cp -a ./nopub_pagesrc/quiz/build/. ./quiz
       - run: cp -a ./nopub_pagesrc/halflifemenu/build/. ./srcmenu
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:

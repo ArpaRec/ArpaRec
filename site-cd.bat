@@ -1,1 +1,1 @@
-cd site-new/joysteem-new
+cd nopub_pagesrc/MainSite

@@ -2,7 +2,7 @@ import convertToI18nFormat from "../transformToI18nFormat";
 
 const menu = convertToI18nFormat({
   newGame: {
-    en: "New Game",
+    en: "Launch Media",
     ru: "Новая игра",
   },
   loadGame: {
