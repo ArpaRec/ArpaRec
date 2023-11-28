@@ -2,4 +2,4 @@
 
 # WebSrc
 
-[https://arparec.dev/quiz/](https://arparec.dev/quiz/)
+[https://arparec.dev/quizzical-app/](https://arparec.dev/quizzical-app/)
